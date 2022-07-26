@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penguin Fashion</title>
+  <!-- tailwind css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/ee1f3275d5.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <header>
+    <section class="sm:mx-auto flex flex-col-reverse sm:flex-row md:flex-row justify-center items-center sm:space-x-20 mt-7 p-8 ">
+
+      <div class="flex flex-col justify-center items-start gap-3">
+        <h1 class="text-6xl font-bold uppercase "> <span class="text-yellow-300">Be the Penguins</span> 
+        <br>  of Winter</h1>
+        <p class="text-2xl">Lorem Ipsum is simply dummy text of the printing <br>
+          and typesetting industry.</p>
+          <button class="bg-green-600 text-white px-6 py-4 rounded-xl text-lg font-bold mt-4"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+      </div>
+
+      <div class="">
+        <img src="./images/model.png" alt="">
+      </div>
+    </section>
+  </header>
+  
+</body>
+</html>
